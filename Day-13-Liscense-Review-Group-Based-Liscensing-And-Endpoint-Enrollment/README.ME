@@ -1,0 +1,178 @@
+# Day-13 – Licensing Review, Group-Based Licensing & Endpoint Enrollment
+
+## 🎯 Objective
+
+Continue reinforcing Microsoft 365 administration fundamentals by reviewing licensing concepts and expanding the Intune lab environment.
+
+Today's focus included:
+
+- Microsoft 365 licensing
+- Group-based licensing concepts
+- Tenant billing awareness
+- Endpoint enrollment
+- Security group membership management
+
+---
+
+## 📚 Licensing Review
+
+Continued progressing through the MS-102 learning path using John Christopher's course.
+
+Reviewed Microsoft 365 licensing concepts including:
+
+- User-based licensing
+- Subscription management
+- License assignment methods
+- Administrative considerations
+
+---
+
+## 👥 Group-Based Licensing
+
+Learned about assigning licenses through groups rather than manually assigning licenses to individual users.
+
+Benefits include:
+
+```plaintext
+Centralised administration
+Simplified onboarding
+Reduced manual work
+Improved consistency
+```
+
+This reinforced the principle of:
+
+```plaintext
+Manage Groups
+↓
+Groups Manage Users
+```
+
+rather than managing every user individually.
+
+---
+
+## 🏢 Business Premium Licensing Group
+
+Created a dedicated licensing group:
+
+```plaintext
+M365 Business Premium Group
+```
+
+Assigned:
+
+```plaintext
+Owner:
+RG
+```
+
+Purpose:
+
+- Understand group-based licensing workflows
+- Prepare for future licensing labs
+- Simulate enterprise licensing administration
+
+---
+
+## 💳 Subscription & Billing Review
+
+Reviewed tenant subscription information.
+
+Checked:
+
+```plaintext
+Billing Information
+Next Renewal Date
+Subscription Status
+```
+
+This provided additional familiarity with Microsoft 365 tenant administration responsibilities.
+
+---
+
+## 💻 Endpoint Enrollment
+
+Completed enrollment of the third Toshiba lab device into Microsoft Intune.
+
+Successfully enrolled:
+
+```plaintext
+WT-LAB-03
+```
+
+Validated:
+
+- Device registration
+- Intune enrollment
+- Device visibility
+
+within the Microsoft Intune Admin Center.
+
+---
+
+## 🔐 Security Group Assignment
+
+Added the newly enrolled device to:
+
+```plaintext
+Lab-Devices-Security-Group
+```
+
+This group is nested within:
+
+```plaintext
+Managed Devices
+```
+
+allowing the device to inherit existing application assignments and future policy deployments.
+
+Current deployment structure:
+
+```plaintext
+Managed Devices
+└── Lab-Devices-Security-Group
+    ├── WT-LAB-01
+    ├── WT-LAB-02
+    └── WT-LAB-03
+```
+
+---
+
+## 📚 Learning Reflection
+
+Today's session focused on reinforcing core Microsoft 365 administration concepts rather than implementing major changes.
+
+Key areas covered:
+
+```plaintext
+Licensing
+Group-Based Administration
+Billing Awareness
+Endpoint Enrollment
+Security Groups
+```
+
+A useful takeaway was seeing how Microsoft 365 increasingly encourages administrators to think in terms of:
+
+```plaintext
+Groups
+↓
+Assignments
+↓
+Automation
+```
+
+rather than managing individual users and devices one at a time.
+
+---
+
+## 🔜 Next Steps
+
+Potential future labs:
+
+- Test group-based licensing assignments
+- Continue MS-102 licensing and identity topics
+- Explore dynamic group membership
+- Create configuration profiles for Toshiba endpoints
+- Continue documenting tenant administration activities
